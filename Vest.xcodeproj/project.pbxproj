@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7694EE1A211008AF00B99604 /* vestbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7694EE19211008AF00B99604 /* vestbg.jpg */; };
 		76C04A59210F97AD003C6FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C04A58210F97AD003C6FFD /* AppDelegate.swift */; };
 		76C04A5B210F97AD003C6FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C04A5A210F97AD003C6FFD /* ViewController.swift */; };
 		76C04A5E210F97AD003C6FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C04A5C210F97AD003C6FFD /* Main.storyboard */; };
 		76C04A60210F97AE003C6FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C04A5F210F97AE003C6FFD /* Assets.xcassets */; };
 		76C04A63210F97AE003C6FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C04A61210F97AE003C6FFD /* LaunchScreen.storyboard */; };
-		76C04A6B210FA93C003C6FFD /* vestbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76C04A6A210FA93B003C6FFD /* vestbg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7694EE19211008AF00B99604 /* vestbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vestbg.jpg; path = ../../vestbg.jpg; sourceTree = "<group>"; };
 		76C04A55210F97AD003C6FFD /* Vest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C04A58210F97AD003C6FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76C04A5A210F97AD003C6FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		76C04A5F210F97AE003C6FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C04A62210F97AE003C6FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76C04A64210F97AE003C6FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76C04A6A210FA93B003C6FFD /* vestbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vestbg.jpg; path = ../../../../../Downloads/vestbg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 		76C04A57210F97AD003C6FFD /* Vest */ = {
 			isa = PBXGroup;
 			children = (
+				7694EE19211008AF00B99604 /* vestbg.jpg */,
 				76C04A58210F97AD003C6FFD /* AppDelegate.swift */,
 				76C04A5A210F97AD003C6FFD /* ViewController.swift */,
 				76C04A5C210F97AD003C6FFD /* Main.storyboard */,
-				76C04A6A210FA93B003C6FFD /* vestbg.jpg */,
 				76C04A5F210F97AE003C6FFD /* Assets.xcassets */,
 				76C04A61210F97AE003C6FFD /* LaunchScreen.storyboard */,
 				76C04A64210F97AE003C6FFD /* Info.plist */,
@@ -125,7 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C04A6B210FA93C003C6FFD /* vestbg.jpg in Resources */,
+				7694EE1A211008AF00B99604 /* vestbg.jpg in Resources */,
 				76C04A63210F97AE003C6FFD /* LaunchScreen.storyboard in Resources */,
 				76C04A60210F97AE003C6FFD /* Assets.xcassets in Resources */,
 				76C04A5E210F97AD003C6FFD /* Main.storyboard in Resources */,
@@ -285,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT5WJA3HX5;
 				INFOPLIST_FILE = Vest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT5WJA3HX5;
 				INFOPLIST_FILE = Vest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

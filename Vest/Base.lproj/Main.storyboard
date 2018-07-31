@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ta-Hm-YKF">
-                                <rect key="frame" x="16" y="569" width="343" height="71"/>
+                                <rect key="frame" x="16" y="343" width="343" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -34,22 +34,22 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vestbg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="chH-w0-hTM">
-                                <rect key="frame" x="-35" y="0.0" width="410" height="199"/>
+                                <rect key="frame" x="-35" y="20" width="410" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72156862745098038" green="0.68627450980392157" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Should I Wear My Vest?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWB-5T-Oe3">
-                                <rect key="frame" x="60" y="531" width="254" height="30"/>
+                                <rect key="frame" x="59" y="305" width="254" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bY7-lC-2ip">
-                                <rect key="frame" x="16" y="251" width="346" height="252"/>
+                                <rect key="frame" x="14" y="534" width="346" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Vests are constantly going in-and-out of style, making them one of the most confusing fashion accessories to date.  Whether it be a formal or causal occasion, wearing a vest at the proper time can appear fashion-forward and help you stand out as the best dressed individual in the room.  Alternately, wearing a vest at the wrong time is the quickest way to look like a buffoon.  Here at Vest, our team grew tired of the uncertainty surrounding vest-culture.  Vest was created as a definitive solution to this age old problem.  By analyzing current trends in the most fashion-forward cities (think Paris, Milan, New York, Tokyo) we are able to remove all the guesswork, and determine whether you should wear your vest today.  Our analysis is influenced by many factors including time of year, popularity, and current social trends.  Vest is applicable to all ages, genders, and vest types.  </mutableString>
+                                <mutableString key="text">Vests are constantly going in-and-out of style, making them one of the most confusing fashion accessories to date.  Whether it be a formal or causal occasion, wearing a vest at the proper time can appear fashion-forward and help you stand out as the best dressed individual in the room.  Alternately, wearing a vest at the wrong time is the quickest way to look like a buffoon.  Here at Vest, our team grew tired of the uncertainty surrounding vest-culture.  Vest was created as a definitive solution to this age old problem.  By analyzing current trends in the most fashion-forward cities (think Paris, Milan, New York, Tokyo) we are able to remove all the guesswork, and determine whether you should wear your vest today.  Our analysis is influenced by many factors including time of year, popularity, and current social trends.  Vest is suited for all ages, genders, and vest types.  </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <userDefinedRuntimeAttributes>
@@ -59,8 +59,16 @@
                                 </userDefinedRuntimeAttributes>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why Vest?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6m-As-Oq4">
-                                <rect key="frame" x="147" y="222" width="81" height="21"/>
+                                <rect key="frame" x="145" y="505" width="81" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZT-lh-bjf">
+                                <rect key="frame" x="0.0" y="-9" width="375" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
