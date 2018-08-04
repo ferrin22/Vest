@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
     @IBAction func showMessage(sender: UIButton) {
         //let dice = String(Int(arc4random_uniform(6) + 1))
         let alertController = UIAlertController(title: "Not Today", message: "Leave That Vest At Home", preferredStyle: UIAlertControllerStyle.alert)
